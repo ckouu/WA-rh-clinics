@@ -9,7 +9,7 @@ export default function FetchCSVData() {
     }, []);
 
     const fetchCSVData = () => {
-    const csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQJPSW3-U26UufOQ0JsTilhVx2oswZyKXAKerlBFlcjaV5lDwO0sg1bzvt6vdVHIeSnvdpYk07Zo1W0/pub?output=csv';
+    const csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSwKUfN0YkPJe4GPo3CDU_OTt_350S_HsDI6mAt0pEzuRIQi2A4s01S0RuMBcm4uCYLzjr2i8TUVC0k/pub?output=csv';
 
         axios.get(csvUrl)
             .then((response) => {

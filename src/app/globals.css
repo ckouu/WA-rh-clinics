@@ -16,6 +16,7 @@ html, body {
   color: var(--text);
   font-size: 1.2vw;
   margin: 0;
+  white-space: pre-line;
 }
 
 nav {
@@ -60,11 +61,16 @@ a {
 }
 
 .popup {
-  margin: 1.5vw;
+  width: 30vw;
+}
+
+.leaflet-popup-content {
+  width: auto !important;
   display: flex;
   flex-direction: column;
+  margin: 1vw;
   font-family: "Karla", sans-serif;
-  font-size: 1.1vw;
+  font-size: 0.85vw;
 }
 
 .services {
@@ -96,6 +102,16 @@ a {
   background-color: var(--light-pink);
   margin: -3vw -8vw 2vw -8vw;
   padding: 3vw 8vw;
+}
+
+.white-blurb {
+  background-color: white;
+  border: 0.2vw solid var(--dark-pink);
+  border-radius: 2vw;
+  padding: 1vw;
+  color: var(--dark-blue);
+  display: flex;
+  gap: 1vw;
 }
 
 .resources-container {

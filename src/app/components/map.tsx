@@ -20,14 +20,12 @@ export default function Map() {
         const { name, latitude, longitude, address, website, phone, email, hours, services, apptlink } = clinic;
         return (
             <Marker key={name} icon={icon} position={[latitude, longitude]}>
-                <Popup>
-                    <div className='popup'>
-                        <a href={website} className='info-header'>{name}</a>
+                <Popup className='popup'>
+                    <a href={website} className='info-header'>{name}</a>
                         {address}
 
                         <br/><br/>
-                        <div className='info-header'>Phone:</div> {phone}<br/>
-                        <div className='info-header'>Email:</div> {email}
+                        <div className='info-header'>Phone:</div> {phone}
 
                         <br/><br/>
 
@@ -40,8 +38,7 @@ export default function Map() {
                                 ))}
                             </ul>
                         </div>
-                        <a href={apptlink} className='blue-button'>Schedule an Appointment</a>
-                    </div>
+                    <a href={apptlink} className='blue-button'>Schedule an Appointment</a>
                 </Popup>
             </Marker>
         );
