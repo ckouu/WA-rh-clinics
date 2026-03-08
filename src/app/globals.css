@@ -142,7 +142,7 @@ a {
 }
 
 .arrow {
-  background-image: url('/arrow_right.svg');
+  background-image: url('./arrow_right.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -169,7 +169,7 @@ a {
   cursor: pointer;
   background: none;
   border: none;
-  background-image: url('/collapse.svg');
+  background-image: url('./collapse.svg');
   background-size: contain;
   background-position: center; 
   background-repeat: no-repeat;
@@ -181,7 +181,7 @@ a {
   cursor: pointer;
   background: none;
   border: none;
-  background-image: url('/expand.svg');
+  background-image: url('./expand.svg');
   background-size: contain;
   background-position: center; 
   background-repeat: no-repeat;
@@ -190,7 +190,7 @@ a {
 }
 
 .ig-button {
-  background-image: url('/ig.svg');
+  background-image: url('./ig.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -201,7 +201,7 @@ a {
 }
 
 .email-button {
-  background-image: url('/mail.svg');
+  background-image: url('./mail.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -212,7 +212,7 @@ a {
 }
 
 .web-button {
-  background-image: url('/web.svg');
+  background-image: url('./web.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
