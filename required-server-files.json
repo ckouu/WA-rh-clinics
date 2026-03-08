@@ -96,7 +96,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\candr\\clinic-site",
+    "outputFileTracingRoot": "C:\\Users\\candr\\WAclinics",
     "experimental": {
       "nodeMiddleware": false,
       "cacheLife": {
@@ -279,10 +279,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "C:\\Users\\candr\\clinic-site"
+      "root": "C:\\Users\\candr\\WAclinics"
     }
   },
-  "appDir": "C:\\Users\\candr\\clinic-site",
+  "appDir": "C:\\Users\\candr\\WAclinics",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
