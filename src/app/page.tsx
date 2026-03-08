@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link';
-import Image from 'next/image';
 import QItem from './components/q-item';
 
 import dynamic from "next/dynamic";
