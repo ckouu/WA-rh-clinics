@@ -15,7 +15,7 @@ import { GeoJsonObject } from 'geojson';
 
 export default function Map() {
 
-    const icon = L.icon({ iconUrl: './marker-icon.png' });
+    const icon = L.icon({ iconUrl: '/marker-icon.png' });
     const clinics = FetchCSVData();
     const renderMarkers = (clinic: { [key: string]: any }, index: number) => {
         const { name, latitude, longitude, address, website, phone, email, hours, services, apptlink } = clinic;
