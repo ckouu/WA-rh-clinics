@@ -11,6 +11,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import wa from '../../data/washington.json';
 import FetchCSVData from './fetchdata';
+import { GeoJsonObject } from 'geojson';
 
 export default function Map() {
 
@@ -56,7 +57,7 @@ export default function Map() {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url='https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}'
             />
-            <GeoJSON data={wa} style={{fillColor: 'transparent'}}/>
+            <GeoJSON data={wa as GeoJsonObject} style={{fillColor: 'transparent'}}/>
 
             {clinics.map(renderMarkers)}
         </MapContainer>
